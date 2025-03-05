@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Form for applying to a post</h1>
+    <form action="post">
+      <div>
+        <label for="username">Enter your username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter Name"
+        />
+      </div>
+      <div>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" />
+      </div>
+
+      <div>
+        <input type="checkbox" name="subscribe" id="subscribe" value="yes" />
+        <label for="subscribe">Subscribe to news letter</label>
+      </div>
+
+      <div>
+        <label for="email">Enter comment</label>
+        <textarea name="comment" rows="4" cols="50" id="email">Enter your comment</textarea
+        >
+      </div>
+      <div>
+        <select name="fruits">
+          <option value="apple">Apple</option>
+          <option value="orange">Orange</option>
+          <option value="banana">Banana</option>
+        </select>
+      </div>
+    </form>
+  </body>
+</html>
